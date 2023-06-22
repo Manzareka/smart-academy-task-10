@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: "Helvetica Neue";
+  background-color: #0a22f4;
+  color: white;
+}
+
+.body {
+  max-width: 1000px;
+  width: 100%;
+  margin: 275px auto 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.text {
+  max-width: 463px;
+  margin-bottom: 58px;
+  font-size: 16px;
+}
+
+.map {
+  border-radius: 15px;
+  margin-bottom: 72px;
+}
+
+.contact-section {
+  display: flex;
+}
+
+.contact-icon {
+  background-color: white;
+  padding: 22px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contact-div {
+  display: flex;
+  align-items: center;
+  margin-right: 98px;
+  margin-bottom: 206px;
+}
+
+.contact {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.all-rights {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
