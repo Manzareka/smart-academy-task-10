@@ -9,46 +9,80 @@
   </head>
 
   <body class="body">
+    <container>
     <footer class="footer">
-      <div>
-        <h2 class="h2">კონტაქტი</h2>
-        <p class="text">
-          Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
-          სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
-          დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
-        </p>
+      <h2 class="h2">კონტაქტი</h2>
+      <div class="contact-form-flex">
+        <div class="for-flex">
+          <p class="text">
+            Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
+            ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+          </p>
 
-        <div>
-          <iframe
-            class="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.4315073924654!2d44.87291717511374!3d41.66802337854246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440f5fe07a5cd1%3A0xe8f2e0cd085ef770!2zU2t5IEhvdXNlIOKAoiDhg6Hhg6Xhg5Dhg5gg4YOw4YOQ4YOj4YOh4YOY!5e0!3m2!1sen!2sge!4v1687435730397!5m2!1sen!2sge"
-            width="463"
-            height="200"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div>
+            <iframe
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.4315073924654!2d44.87291717511374!3d41.66802337854246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440f5fe07a5cd1%3A0xe8f2e0cd085ef770!2zU2t5IEhvdXNlIOKAoiDhg6Hhg6Xhg5Dhg5gg4YOw4YOQ4YOj4YOh4YOY!5e0!3m2!1sen!2sge!4v1687435730397!5m2!1sen!2sge"
+              width="463"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          
+          <div class="contact-section">
+            <div class="contact-div">
+              <img class="contact-icon" src="images/Group 77.png" alt="icon" />
+              <a class="contact" href="tel:+995 555 444 333">+995 555 444 333</a>
+            </div>
+            <div class="contact-div">
+              <img class="contact-icon" src="images/Group 78.png" alt="icon" />
+              <a class="contact" href="mailto:example@gmail.com"
+                >example@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="for-flex">
+          <form class="form" action="#" method="#">
+            <label class="label" for="user-name">სახელი, გვარი</label>
+            <input class="input name" type="text" name="name" id="name" />
+          </form>
+
+          <form class="form" action="#" method="#">
+            <label class="label" for="email">ელ.ფოსტა</label>
+            <input class="input email" type="email" name="email" id="email" />
+          </form>
+
+          <form class="form" action="#" method="#">
+            <label class="label" for="tel">ტელეფონის ნომერი</label>
+            <input class="input" type="tel" name="tel" id="tel" />
+          </form>
+
+          <form class="form message" action="#" method="#">
+            <label class="label" for="text">შეტყობინება </label>
+            <input class="input form-text" type="text" name="text" id="text" />
+          </form>
         </div>
       </div>
 
-      <form class="form">forms</form>
+
+
+      <a class="button" href="index.html">
+        <button class="click">გაგზავნა</button>
+        </a>
+        
+      <div class="all-rights">
+        <p>ყველა უფლება დაცულია</p>
+        <div class="flex-div">
+          <p class="p">დამზადებულია ❤️-ით</p>
+          <img src="images/Group 72.png" alt="smart web icon">
+        </div>
+      </div>
     </footer>
-
-    <div class="contact-section">
-      <div class="contact-div">
-        <img class="contact-icon" src="images/Group 77.png" alt="icon" />
-        <a class="contact" href="tel:+995 555 444 333">+995 555 444 333</a>
-      </div>
-      <div class="contact-div">
-        <img class="contact-icon" src="images/Group 78.png" alt="icon" />
-        <a class="contact" href="mailto:example@gmail.com">example@gmail.com</a>
-      </div>
-    </div>
-
-    <div class="all-rights">
-      <p>ყველა უფლება დაცულია</p>
-      <p>დამზადებულია &#128151-ით</p>
-    </div>
   </body>
 </html>
