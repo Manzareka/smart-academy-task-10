@@ -2,16 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-width: 100%;
   font-family: "Helvetica Neue";
   background-color: #0a22f4;
   color: white;
 }
 
-.body {
-  max-width: 1000px;
-  width: 100%;
-  margin: 275px auto 40px;
+.container {
+  max-width: 1920px;
+  max-width: 100%;
+  margin: 275px 240px 240px 240px;
 }
 
 .contact-form-flex {
@@ -55,7 +54,7 @@
 
 .contact {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .label {
@@ -66,8 +65,8 @@
 
 .input {
   display: block;
+  min-width: 200px;
   max-width: 463px;
-
   border: none;
   border-bottom: 1px solid cornflowerblue;
   height: 30px;
